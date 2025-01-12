@@ -10,7 +10,7 @@ namespace API.Endpoints
         public static RouteGroupBuilder MapAccountEndpoint(this WebApplication app)
         {
             var group = app.MapGroup("/api/account").WithTags("account");
-            group.MapPost("/register", async (HttpContext context, UserManager<AppUser>UserManager, [FromForm] string fullName, [FromForm] string email,[FromForm] string password) =>
+            group.MapPost("/register", async (HttpContext context, UserManager<AppUser>UserManager, [FromForm] string fullName, [FromForm] string email, [FromForm]string userName, [FromForm] string password) =>
             {
                 var userFromDb = await UserManager.FindByEmailAsync(email);
                 if (userFromDb != null)
@@ -20,6 +20,7 @@ namespace API.Endpoints
 
                 var user = new AppUser
                 {
+                    UserName=userName,
                     Email = email,
                     FullName = fullName,
                 };
@@ -32,7 +33,7 @@ namespace API.Endpoints
                         .FirstOrDefault()!));
                 }
                 return Results.Ok(Response<string>.Success("","User Created Successfully."));
-            });
+            }).DisableAntiforgery();
             return group;
         }
     }
