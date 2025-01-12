@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\services\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:services\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FileUpload.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Services\\FileUpload.cs",
+              "RelativeDocumentMoniker": "Services\\FileUpload.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Services\\FileUpload.cs",
+              "RelativeToolTip": "Services\\FileUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:57:40.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Common\\Response.cs",
               "RelativeDocumentMoniker": "Common\\Response.cs",
@@ -60,14 +77,14 @@
               "RelativeDocumentMoniker": "Endpoints\\AccountEndpoint.cs",
               "ToolTip": "C:\\Users\\anish\\ping\\API\\Endpoints\\AccountEndpoint.cs",
               "RelativeToolTip": "Endpoints\\AccountEndpoint.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T02:53:01.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -97,14 +114,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\anish\\ping\\API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T02:02:20.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "Models\\AppUser.cs",
@@ -116,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",

@@ -51,6 +51,8 @@ app.UseAuthorization();
 
 app.UseAuthentication();
 
+app.UseStaticFiles();
+
 app.MapAccountEndpoint();
 
 app.Run();
