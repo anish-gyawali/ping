@@ -1,9 +1,11 @@
 ﻿using API.Common;
 using API.DTOs;
+using API.Extensions;
 using API.Models;
 using API.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Endpoints
 {
@@ -72,6 +74,14 @@ namespace API.Endpoints
                 var token = tokenService.GenerateToken(user.Id, user.UserName!);
                 return Results.Ok(Response<string>.Success(token, "Login Successfully"));
             });
+
+            group.MapGet("/me", async (HttpContext context, UserManager<AppUser> userManager) =>
+            {
+                var currentLoggedInUserId = context.User.GetUserId()!;
+                var currentLoggedInUser = await userManager.Users.SingleOrDefaultAsync(x => x.Id == currentLoggedInUserId.ToString());
+
+                return Results.Ok(Response<AppUser>.Success(currentLoggedInUser!, "User fetched Successfully"));
+            }).RequireAuthorization();
             return group;
         }
     }
