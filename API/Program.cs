@@ -1,4 +1,5 @@
 using API.Data;
+using API.Endpoints;
 using API.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -50,6 +51,6 @@ app.UseAuthorization();
 
 app.UseAuthentication();
 
-app.MapControllers();
+app.MapAccountEndpoint();
 
 app.Run();
