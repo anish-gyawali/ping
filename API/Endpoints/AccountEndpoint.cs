@@ -1,4 +1,5 @@
 ﻿using API.Common;
+using API.DTOs;
 using API.Models;
 using API.Services;
 using Microsoft.AspNetCore.Identity;
@@ -11,6 +12,7 @@ namespace API.Endpoints
         public static RouteGroupBuilder MapAccountEndpoint(this WebApplication app)
         {
             var group = app.MapGroup("/api/account").WithTags("account");
+            //Endpoint to register new user
             group.MapPost("/register", 
                 async (HttpContext context,UserManager<AppUser>UserManager,
                 [FromForm] string fullName,
@@ -49,6 +51,27 @@ namespace API.Endpoints
                 }
                 return Results.Ok(Response<string>.Success("","User Created Successfully."));
             }).DisableAntiforgery();
+
+            //Endpoint to login as user
+            group.MapPost("/login", async (UserManager<AppUser> userManager, TokenService tokenService, LoginDto dto) =>
+            {
+                if (dto is null)
+                {
+                    return Results.BadRequest(Response<string>.Failure("Invalid Login details."));
+                }
+                var user = await userManager.FindByEmailAsync(dto.Email);
+                if (user is null)
+                {
+                    return Results.BadRequest(Response<string>.Failure("User not found"));
+                }
+                var result = await userManager.CheckPasswordAsync(user!, dto.Password);
+                if (!result)
+                {
+                    return Results.BadRequest(Response<string>.Failure("Invalid Password"));
+                }
+                var token = tokenService.GenerateToken(user.Id, user.UserName!);
+                return Results.Ok(Response<string>.Success(token, "Login Successfully"));
+            });
             return group;
         }
     }
