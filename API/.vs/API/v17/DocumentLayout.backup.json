@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\anish\\ping\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\extensions\\claimsprincipleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:extensions\\claimsprincipleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\endpoints\\accountendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:endpoints\\accountendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\dtos\\messageresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:dtos\\messageresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\dtos\\messagerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:dtos\\messagerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\dtos\\onlineuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:dtos\\onlineuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\migrations\\20250112161233_messagetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:migrations\\20250112161233_messagetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\services\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:services\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,37 +82,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Common\\Response.cs",
-              "RelativeDocumentMoniker": "Common\\Response.cs",
-              "ToolTip": "C:\\Users\\anish\\ping\\API\\Common\\Response.cs",
-              "RelativeToolTip": "Common\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MessageResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\DTOs\\MessageResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MessageResponseDto.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\DTOs\\MessageResponseDto.cs",
+              "RelativeToolTip": "DTOs\\MessageResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T03:02:59.324Z",
+              "WhenOpened": "2025-01-12T17:00:24.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\DTOs\\MessageRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MessageRequestDto.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\DTOs\\MessageRequestDto.cs",
+              "RelativeToolTip": "DTOs\\MessageRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:45:50.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClaimsPrincipleExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Extensions\\ClaimsPrincipleExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ClaimsPrincipleExtensions.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Extensions\\ClaimsPrincipleExtensions.cs",
+              "RelativeToolTip": "Extensions\\ClaimsPrincipleExtensions.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:34:13.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OnlineUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\DTOs\\OnlineUserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\OnlineUserDto.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\DTOs\\OnlineUserDto.cs",
+              "RelativeToolTip": "DTOs\\OnlineUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:19:01.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:16:32.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T02:02:20.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AccountEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Endpoints\\AccountEndpoint.cs",
               "RelativeDocumentMoniker": "Endpoints\\AccountEndpoint.cs",
               "ToolTip": "C:\\Users\\anish\\ping\\API\\Endpoints\\AccountEndpoint.cs",
               "RelativeToolTip": "Endpoints\\AccountEndpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAE0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T02:53:01.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "20250112161233_MessageTable.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Migrations\\20250112161233_MessageTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250112161233_MessageTable.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Migrations\\20250112161233_MessageTable.cs",
+              "RelativeToolTip": "Migrations\\20250112161233_MessageTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:12:33.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:52:06.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "API",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API.csproj",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\API.csproj",
+              "RelativeToolTip": "API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-12T15:31:38.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAApwCIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T15:21:28.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FileUpload.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Services\\FileUpload.cs",
+              "RelativeDocumentMoniker": "Services\\FileUpload.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Services\\FileUpload.cs",
+              "RelativeToolTip": "Services\\FileUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:57:40.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Common\\Response.cs",
+              "RelativeDocumentMoniker": "Common\\Response.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\Common\\Response.cs",
+              "RelativeToolTip": "Common\\Response.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T03:02:59.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -81,33 +268,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\anish\\ping\\API\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T02:03:57.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\anish\\ping\\API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\anish\\ping\\API\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T02:02:20.08Z",
+              "WhenOpened": "2025-01-12T15:31:59.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "Models\\AppUser.cs",
@@ -115,12 +302,11 @@
               "RelativeToolTip": "Models\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T02:08:37.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T02:08:37.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -128,8 +314,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-12T01:52:16.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T01:52:16.16Z"
             }
           ]
         }
