@@ -1,1 +1,50 @@
-<p>register works!</p>
+<div class="register-container mat-typography">
+  <!-- Left Side: Image -->
+  <div class="image-section">
+    <img src="register.svg" alt="Register Illustration" />
+  </div>
+
+  <!-- Right Side: Registration Form -->
+  <div class="form-section">
+    <div class="form-header">
+      <img
+        [src]="profilePicture"
+        alt="Profile Picture"
+        class="profile-picture"
+      />
+      <h2>Register</h2>
+    </div>
+
+    <form class="register-form">
+      <mat-form-field appearance="fill" class="form-field">
+        <mat-label>Email</mat-label>
+        <input matInput name="email" [(ngModel)]="email" placeholder="Email" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="form-field">
+        <mat-label>Full Name</mat-label>
+        <input
+          matInput
+          name="fullName"
+          [(ngModel)]="fullName"
+          placeholder="Full Name"
+        />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="form-field">
+        <mat-label>Password</mat-label>
+        <input
+          matInput
+          name="password"
+          [(ngModel)]="password"
+          placeholder="Password"
+          type="password"
+        />
+      </mat-form-field>
+
+      <button mat-fab class="submit-button">
+        Register
+      </button>
+    </form>
+  </div>
+</div>
