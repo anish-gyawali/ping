@@ -1,0 +1,62 @@
+<div class="login-container mat-typography">
+    <!-- Left Side: Image -->
+    <div class="image-section">
+      <img src="register.svg" alt="Register Illustration" />
+    </div>
+  
+    <!-- Right Side: Registration Form -->
+    <div class="form-section">
+      <div class="form-header">
+        <i class="material-icons" style="font-size:64px; color: navy;">person</i>
+        <h2>Login</h2>
+      </div>
+  
+      <form #userForm="ngForm" (ngSubmit)="login()" class="login-form">
+        
+        <mat-form-field appearance="fill" class="form-field">
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            required
+            name="email"
+            [(ngModel)]="email"
+            #emailModel="ngModel"
+            placeholder="Email"
+          />
+          @if(emailModel.errors?.['required']){
+          <mat-error> Email is required. </mat-error>
+          }
+        </mat-form-field>
+  
+          
+        <mat-form-field appearance="fill" class="form-field">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            type="password"
+            name="password"
+            required
+            [(ngModel)]="password"
+            placeholder="Password"
+            #passwordModel="ngModel"
+            [type]="hide() ? 'text' : 'password'"
+          />
+          <mat-icon (click)="togglePassword($event)" matSuffix>
+            {{ hide() ? "visibility" : "visibility_off" }}
+          </mat-icon>
+          @if(passwordModel.errors?.['required']){
+          <mat-error> Password is required. </mat-error>
+          }
+        </mat-form-field>
+        <button
+          mat-fab
+          type="submit"
+          [disabled]="!userForm.valid"
+          class="submit-button"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+  
