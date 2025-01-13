@@ -34,7 +34,7 @@ namespace API.Hubs
                 {
                     ConnectionId = connectionId,
                     UserName = userName,
-                    ProfileImage = currentUser!.ProfileImage,
+                    ProfilePicture = currentUser!.ProfileImage,
                     FullName = currentUser!.FullName,
                 };
 
@@ -135,7 +135,7 @@ namespace API.Hubs
                 Id = u.Id,
                 UserName = u.UserName,
                 FullName = u.FullName,
-                ProfileImage = u.ProfileImage,
+                ProfilePicture = u.ProfileImage,
                 IsOnline = onlineUsers.ContainsKey(u.UserName!),
                 UnreadCount = context.Messages.Count(x => x.ReceiverId == userName && x.SenderId == u.Id && !x.IsRead)
             }).OrderByDescending(u => u.IsOnline).ToListAsync();
