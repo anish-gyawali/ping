@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\anish\\ping\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\dtos\\onlineuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:dtos\\onlineuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\dtos\\onlineuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|solutionrelative:dtos\\onlineuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7836A4D-1B29-48AB-9343-4560F884F87E}|API.csproj|c:\\users\\anish\\ping\\api\\endpoints\\accountendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "OnlineUserDto.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\DTOs\\OnlineUserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\OnlineUserDto.cs",
@@ -118,11 +118,12 @@
               "RelativeToolTip": "DTOs\\OnlineUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T16:19:01.372Z"
+              "WhenOpened": "2025-01-12T16:19:01.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
@@ -135,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -159,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\anish\\ping\\API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
