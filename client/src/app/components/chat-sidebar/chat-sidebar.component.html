@@ -1,0 +1,35 @@
+<div class="sidebar-container">
+    <div class="sidebar-header">
+        <div class="sidebar-profile">
+            <img class="profile-img" src="https://randomuser.me/api/portraits/men/24.jpg" alt="Profile Picture" />
+            <div class="profile-name">John Bhurtel</div>
+        </div>
+        <div>
+            <button mat-icon-button [matMenuTriggerFor]="menu">
+                <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item>
+                    <mat-icon>logout</mat-icon>
+                    <span>Logout</span>
+                </button>
+            </mat-menu>
+        </div>
+    </div>
+
+    <div class="sidebar-search">
+        <input placeholder="Search" type="text" class="search-input">
+        <mat-icon class="search-icon">search</mat-icon>
+    </div>
+
+    <div class="chat-list">
+        @for (item of [1, 2, 3, 4, 5, 6]; track item) {
+        <div class="chat-item">
+            <img src="https://randomuser.me/api/portraits/men/24.jpg" class="chat-item-img" alt=""/>
+            <div>
+                <span class="chat-item-name">John Bhurtel</span>
+                <p class="chat-item-message">3 new messages</p>
+            </div>
+        </div>}
+    </div>
+</div>

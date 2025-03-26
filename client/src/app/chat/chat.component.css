@@ -1,0 +1,25 @@
+/* Main chat container */
+.chat-container {
+    display: flex;
+    border-radius: 1.5rem;
+    height: 100%;
+    justify-content: space-between;
+}
+
+/* Sidebar styling */
+.chat-sidebar {
+    background-color: white;
+    border-right: 1px solid #e5e7eb;
+    width: 50%;
+}
+
+/* Chat window styling */
+.chat-window-container {
+    width: 100%;
+}
+
+.chat-sidebar-right {
+    background-color: #f9fafb;
+    border-left: 1px solid #e5e7eb;
+    width: 50%;
+}

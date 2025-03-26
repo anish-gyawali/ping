@@ -1,0 +1,14 @@
+/* Window container */
+.window-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Chat window image */
+.window-container img {
+    max-width: 100%;
+    height: auto;
+}
