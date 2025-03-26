@@ -49,4 +49,9 @@ export class AuthService {
   isLoggedIn():boolean{
     return !!localStorage.getItem(this.token);
   }
+
+  logout() {
+    localStorage.removeItem(this.token);
+    localStorage.removeItem('user');
+  }
 }
