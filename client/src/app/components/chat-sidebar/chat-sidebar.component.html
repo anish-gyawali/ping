@@ -9,7 +9,9 @@
                 <mat-icon>more_vert</mat-icon>
             </button>
             <mat-menu #menu="matMenu">
-                <button mat-menu-item>
+                <button
+                (click)="logout()"
+                mat-menu-item>
                     <mat-icon>logout</mat-icon>
                     <span>Logout</span>
                 </button>
